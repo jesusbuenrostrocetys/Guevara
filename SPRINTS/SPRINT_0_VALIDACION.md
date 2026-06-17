@@ -1,92 +1,93 @@
-# SPRINT 0: VALIDACIÓN PREVIA
+# SPRINT 0: VALIDACIÓN PREVIA - RESPUESTAS
 
-## 🚨 ANTES DE COMENZAR CUALQUIER DESARROLLO
-
-Este Sprint debe completarse ANTES de mandar ningún código a Claude Code.
+## ✅ SPRINT 0 COMPLETADO
 
 ---
 
-## ❓ PREGUNTAS CRÍTICAS A RESPONDER
+## 📋 RESPUESTAS CONFIRMADAS
 
 ### 1. DATOS DE PRODUCTOS
-- [ ] ¿Tienes fotografías/imágenes del catálogo de proveedores?
-- [ ] ¿En qué formato están? (JPG, PDF, Excel, lista de texto)
-- [ ] ¿Incluyen DPI completo y visible?
-- [ ] ¿Incluyen precios proveedor sin IVA?
-- [ ] ¿Cuántas imágenes aproximadamente?
+- [x] ¿Tienes fotografías/imágenes del catálogo de proveedores?
+- **Respuesta:** SÍ - Tienes fotografías disponibles
 
 ### 2. INVENTARIO ACTUAL
-- [ ] ¿Tienes lista de DPI actualmente en stock?
-- [ ] ¿Cantidades disponibles por DPI?
-- [ ] ¿En qué formato están?
-- [ ] ¿Fechas de última compra/venta?
+- [x] ¿Tienes lista de DPI actualmente en stock?
+- **Respuesta:** SÍ - Tienes inventario disponible
 
 ### 3. INFORMACIÓN DE AUTOZONE
-- [ ] ¿Búsqueda de precios de AutoZone será manual o automática?
-- [ ] ¿Tienes acceso a API de AutoZone? (No recomendado)
-- [ ] ¿O simplemente dejar campo vacío si no hay info?
+- [x] ¿Búsqueda de precios de AutoZone será manual o automática?
+- **Respuesta:** AUTOMÁTICA - Claude debe búscar los precios en AutoZone
 
 ### 4. PROVEEDORES
-- [ ] ¿Cuáles son los principales?
-- [ ] ¿Tiempos de reposición exactos?
-- [ ] ¿Tienen mínimos de compra?
-- [ ] ¿Descuentos por volumen?
+- [x] ¿No importan los proveedores?
+- **Respuesta:** NO IMPORTAN - Simplificar para fase inicial
 
 ### 5. INFRAESTRUCTURA TÉCNICA
-- [ ] ¿Versión de Excel? (365 recomendado)
-- [ ] ¿Sistema Operativo? (Windows/Mac)
-- [ ] ¿Impresora de etiquetas? (Marca/modelo)
-- [ ] ¿Lectores de códigos de barras? (Marca/modelo)
+- [x] ¿Qué infraestructura técnica tienes?
+- **Respuesta:** NINGUNA - Comenzar de cero
 
 ### 6. USUARIOS
-- [ ] ¿Quiénes usarán el sistema? (Nombres/roles)
-- [ ] ¿Nivel técnico de cada usuario?
-- [ ] ¿Necesitan capacitación específica?
-- [ ] ¿Horarios de operación del POS?
+- [x] ¿Quiénes usarán el sistema?
+- **Respuesta:** ÚNICAMENTE MARIO GUEVARA - Matriz del negocio
 
 ### 7. REPORTES
-- [ ] ¿Qué reportes necesita Mario Guevara diariamente?
-- [ ] ¿Semanalmente?
-- [ ] ¿Mensualmentes?
+- [x] ¿Qué reportes necesita?
+- **Respuesta:** 
+  - Stock disponible
+  - Necesidades de inventario (qué pedir)
+  - Productos con más rotación (top ventas)
+  - Productos estancados (sin movimiento)
+  - Ventas totales
+  - Utilidades generadas
+  - Análisis comparativo
 
 ---
 
-## ✅ FORMATO DE RESPUESTA
+## 🎯 DECISIONES IMPORTANTES TOMADAS
 
-Para cada pregunta:
-1. Marca [x] si tienes la respuesta
-2. Escribe la respuesta completa
-3. Si no tienes, marca [ ] y explica por qué
+### ✅ SIMPLIFICACIONES AUTORIZADAS
 
----
+1. **Proveedores:** Ignorar en esta fase
+2. **Usuarios múltiples:** Solo Mario Guevara (interfaz simplificada)
+3. **Búsqueda AutoZone:** Automática (Claude lo maneja)
+4. **Infraestructura:** Comenzar sin requisitos técnicos específicos
 
-## 📝 RESPUESTAS
+### ✅ PRIORIDADES CONFIRMADAS
 
-*(Completa cada sección con tus respuestas)*
-
-### 1. DATOS DE PRODUCTOS
-**Respuesta:**
-
-### 2. INVENTARIO ACTUAL
-**Respuesta:**
-
-### 3. INFORMACIÓN DE AUTOZONE
-**Respuesta:**
-
-### 4. PROVEEDORES
-**Respuesta:**
-
-### 5. INFRAESTRUCTURA TÉCNICA
-**Respuesta:**
-
-### 6. USUARIOS
-**Respuesta:**
-
-### 7. REPORTES
-**Respuesta:**
+1. **Dashboard Principal:** Matriz del negocio (KPIs)
+2. **Reportes:** Stock, rotación, estancamiento, ventas, utilidades
+3. **Objetivo:** Facilitar toma de decisiones de Mario Guevara
 
 ---
 
-## 🚀 SIGUIENTE PASO
+## 🚀 SIGUIENTE FASE: SPRINTS DE DESARROLLO
 
-Una vez completes todas las respuestas, se procede al **SPRINT 1: Catálogo Maestro**
+El sistema se desarrollará en estos Sprints:
+
+```
+SPRINT 1: Catálogo Maestro (datos ficticios)
+   ↓
+SPRINT 2: Módulo de Entradas (compras)
+   ↓
+SPRINT 3: Módulo POS (ventas)
+   ↓
+SPRINT 4: Tickets y Códigos de Barras
+   ↓
+SPRINT 5: Dashboard (Matriz del negocio)
+   ↓
+SPRINT 6: Reportes especializados
+   ↓
+SPRINT 7: Búsqueda automática de AutoZone
+   ↓
+SPRINT 8: Integración y validación final
+   ↓
+SPRINT 9: Migración de datos reales
+```
+
+---
+
+## ✅ ESTADO: LISTO PARA SPRINT 1
+
+**Aprobado para proceder con desarrollo.**
+
+Próximo paso: Enviar SPRINT 1 a Claude Code
